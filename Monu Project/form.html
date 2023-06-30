@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coolt</title>
+    <style>
+        #form{
+
+  width: 100%;
+  border: 1px solid;
+  margin: auto;
+ 
+  color: #D1B000;
+   
+ 
+
+
+}
+#form>img{
+    position: absolute;
+   height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#form>div>img{
+    width: 10%;
+    margin-left: 88%;
+    margin-top: 2%;
+    border-radius: 20%;
+    
+   
+
+}
+#form>div{
+    position: relative;
+    /* border: 1px solid pink; */
+
+
+}
+
+form{
+    
+    width: 80%; 
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 5px;
+    padding-left: 7%;
+  
+    box-shadow: rgba(185, 175, 175, 0.19) 0px 10px 20px, rgba(211, 194, 194, 0.23) 0px 6px 6px;
+    
+   
+
+}
+
+form>input{
+    margin-bottom: 5%;
+    width: 80%;
+    height: 4vh;
+    border-radius: 5Px;
+    border: none;
+    padding-left: 5%;
+    outline: none;
+}
+select{
+    margin-bottom: 5%;
+    width: 86%;
+    height: 4.5vh;
+    border-radius: 5Px;
+    margin-bottom: 3%;
+    border: none;
+    outline: none;
+    margin-top: 7%;
+}
+ form>p{
+   font-weight: bold;
+   font-size: larger;
+    margin-top: 3%;
+ }
+
+#submit{
+    width: 50%;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #D1B000;
+    margin-left: 20%;
+    margin-bottom: 5%;
+
+
+    
+}
+
+form>input:hover{
+    background-color: #D1B000;
+}
+form>select:hover{
+    background-color: #D1B000;
+
+}
+form>select>option{
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+    </style>
+</head>
+<body>
+    
+    <div id="form">
+        <img src="./image/M.png" alt="">
+  
+        <div>
+          <!-- <img id="cross" src="./image/cross.png" alt=""> -->
+  
+        
+  
+        <form >
+        <p>Full Name</p>
+        <input type="text" placeholder="Full name" required/>
+        <br/>
+        <p>Email</p>
+        <input type="email" placeholder="Email" required/>
+        <br/>
+        <p>Mobile Number</p>
+        <input type="Number" placeholder="Mobile NO" required maxlength="10"/>
+        <br/>
+        <select>
+          <option value="">Select Service </option>
+          <option value="GST">GST</option>
+          <option value="TDS">TDS</option>
+          <option value="Accounting">Accounting</option>
+          <option value="Other">Other</option>
+        </select>
+  
+        <br/>
+  
+        <input id="submit" type="submit"/>
+  
+  
+        </form>
+  
+        </div>
+  
+  
+        
+   </div>  
+  
+        
+
+
+    
+</body>
+</html>
+<script>
+
+let btn=document.getElementById("book");
+let form=document.getElementById("form");
+let cross=document.getElementById("cross");
+
+btn.addEventListener("click",()=>{
+        form.style.display="flex";
+})
+
+cross.addEventListener("click",()=>{
+        form.style.display="none";      
+})
+
+</script>

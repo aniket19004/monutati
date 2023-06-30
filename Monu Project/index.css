@@ -1,0 +1,240 @@
+
+
+/* nav Bar */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    
+    align-items: center;
+    width: 99%;
+    margin-top: 5%;
+    /* border-radius:  10px 10px 0px 0px; */
+    background-color: black;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+nav>img{
+    margin-right: 5%;
+}
+h4,p,li{
+   color: white;
+}
+body{
+    background-color: rgb(24, 25, 25);
+}
+nav>img{
+    width: 20%;
+    height: 20%;
+    border-radius: 80%;
+}
+nav>h2{
+    color: #D1B000;
+   
+    
+}
+
+/* Slider css */
+#slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    height: 230px;
+}
+
+#image{
+    width: 98%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #D1B000;
+   
+}
+/* About us */
+div>h2{
+ color: #D1B000;
+ margin-left: 2%;
+}
+span{
+    font-weight: bold;
+}
+p{
+font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+align-items: center;
+width: 92%;
+margin: auto;
+}
+
+.allservice{
+    border: 1px solid #D1B000;
+    text-align: center;
+    border-radius: 5%;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.allservice>p{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.allservice>img{
+    border-radius: 10px 10px 0px 0px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* whatsapp image */
+#color{
+  
+    display: flex;
+    justify-content: space-between;
+}
+a>img,#color>img{
+    width: 12%;
+    height: 7%;
+    border-radius: 90%;
+    position: fixed;
+    margin-left: 3%;
+    z-index: 1;
+   
+   
+}
+a{
+    width: 15%;
+    height: 10%;
+    
+    margin-left: 80%;
+   
+}
+details{
+    border: 1px solid red;
+    width: 95%;
+    height: 3vh;
+    margin: auto;
+    border-radius: 5%;
+    
+}
+
+/* additional service */
+.Additional{
+    margin-left: 4%;
+}
+
+/* BOOK APPOINTMENT buttton */
+
+button{
+    /* display: block; */
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    height: 4vh;
+    border-radius: 5px ,0px,0px,5px;
+    background-color: #D1B000;
+    /* position: fixed; */
+  font-weight: bold;
+
+}
+
+/* sentence */
+#Sentence{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 90%;
+    background-color: rgb(41, 39, 63);
+    padding: 4px;
+    
+    
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#book{
+    background-color: rgb(220, 234, 234);
+    margin-top: 10px;
+    height: 5vh;;
+}
+#abook{
+    margin: auto;
+}
+
+
+#map{
+    margin-top: 5%;
+   text-align: center;
+   border-radius: 5px;
+   margin-bottom: 10%;
+}
+/* contact */
+
+
+.contact{
+    display: flex;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    
+}
+.contact>img{
+    width: 5%;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    border: 0px;
+}
+
+/* nav bar */
+footer{
+   background-color: black;
+   margin-top: 10%;
+   /* border-radius: 10px 10px 0px 0px  ; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+footer>div{
+    
+    display: flex;
+    
+}
+footer>div>h1{
+    color:#D1B000; 
+    font-weight: bold; 
+    font-size: xx-large;
+    text-align: center;
+   
+}
+footer>div>h1>span{
+    color: rgb(214, 78, 78);
+}
+#name{
+    color:rgb(247, 10, 10);
+}
+
+#Instruction{
+    color: azure;
+    margin-top: 5%;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
+    font-weight: bold;
+}
+@media (min-width: 550px) and (max-width: 4000px) {
+    #Instruction{
+        display: block;
+    }
+  }
